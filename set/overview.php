@@ -1,18 +1,6 @@
-<!doctype html>
-<html lang="en">
-
-<head>
-
-    <?php include('../components/style.php'); ?>
-</head>
-
-<body>
-
-    <?php include('../components/navbar.php'); ?>
-    <!-- content here -->
-    <div class="container">
-        <div style="font-size: 30px; color: rgb(10, 199, 252)">ชื่อหลักสูตร</div>
-    </div>
+<!-- content here -->
+<div class="container">
+    <div style="font-size: 30px; color: rgb(10, 199, 252)">ชื่อหลักสูตร</div>
     <ul>
         <li>ภาษาไทย หลักสูตรวิทยาศาสตรบัณฑิตสาขาวิชาวิทยาศาสตร์และเทคโนโลยีสิ่งแวดล้อม</li>
         <li>ภาษาอังกฤษ Bachelor of ScienceProgram in Environmental Science and Technology</li>
@@ -22,7 +10,7 @@
             <div style="font-size: 30px; color: rgb(10, 199, 252)">ชื่อปริญญาและสาขาวิชา</div>
         </div>
         <ul>
-            <li>ชื่อเต็ม (ภาษาไทย) วิทยาศาสตรบัณฑิต (วิทยาศาสตรและเทคโนโลยีสิ่งแวดล้อม)</li>
+            <li>ชื่อเต็ม (ภาษาไทย) วิทยาศาสตรบัณฑิต (วิทยาศาสตร์และเทคโนโลยีสิ่งแวดล้อม)</li>
             <li>ชื่อย่อ (ภาษาไทย) วท.บ. (วิทยาศาสตร์และเทคโนโลยีสิ่งแวดล้อม)</li>
             <li>ชื่อเต็ม (ภาษาอังกฤษ) Bachelor of Science (Environmental Science and Technology)</li>
             <li>ชื่อย่อ (ภาษาอังกฤษ) B.Sc. (Environmental Science and Technology)</li>
@@ -86,11 +74,8 @@
                         </div>
                     </div>
                 </div>
-
-                <!-- end content here -->
             </div>
-            <?php include('../components/footer.php'); ?>
-            <?php include('../components/script.php'); ?>
-</body>
-
-</html>
+        </div>
+    </div>
+</div>
+<!-- end content here -->
